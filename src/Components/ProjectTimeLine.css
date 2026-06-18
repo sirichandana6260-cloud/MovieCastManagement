@@ -1,0 +1,29 @@
+.timeline-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.timeline-container h1 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 85%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #111827;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+tr:hover {
+  background-color: #f3f4f6;
+}

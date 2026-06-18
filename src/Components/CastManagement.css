@@ -1,0 +1,29 @@
+.cast-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.cast-container h1 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+th {
+  background: #111827;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f3f4f6;
+}

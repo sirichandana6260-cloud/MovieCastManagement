@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import TimelineForm from "./TimeLineForm";
 import TimelineTable from "./TimelineTable";
-import "./ProjectTimeline.css";
+import "./ProjectTimeLine.css";
 
-function ProjectTimeline() {
+function ProjectTimeLine() {
   const [stage, setStage] = useState("");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
@@ -78,4 +78,4 @@ function ProjectTimeline() {
   );
 }
 
-export default ProjectTimeline;
+export default ProjectTimeLine;

@@ -1,4 +1,4 @@
-function TimelineTable({ timelineList, handleDeleteTimeline }) {
+function TimeLineTable({ timelineList, handleDeleteTimeline }) {
   return (
     <div className="timeline-table">
       <h2>Production Timeline</h2>
@@ -40,4 +40,4 @@ function TimelineTable({ timelineList, handleDeleteTimeline }) {
   );
 }
 
-export default TimelineTable;
+export default TimeLineTable;

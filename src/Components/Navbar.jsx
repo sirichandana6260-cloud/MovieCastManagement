@@ -32,6 +32,11 @@ function Navbar() {
         <li>
           <Link to="/reports">Reports</Link>
         </li>
+
+      
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
       </ul>
     </nav>
   );

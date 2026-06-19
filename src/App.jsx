@@ -2,13 +2,14 @@ import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 import Login from "./Components/Login";
+
 import Dashboard from "./Components/Dashboard";
 import CastManagement from "./Components/CastManagement";
 import ShootingSchedule from "./Components/ShootingSchedule";
 import BudgetTracking from "./Components/BudgetTracking";
-import ProjectTimeline from "./Components/ProjectTimeLine";
+import ProjectTimeLine from "./Components/ProjectTimeLine";
 import Reports from "./Components/Reports";
-import Contact from "./Components/Contact";
+
 import ProtectedRoute from "./Components/ProtectedRoute";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
       <Routes>
 
-       
+     
         <Route path="/login" element={<Login />} />
 
        
@@ -62,7 +63,7 @@ function App() {
           path="/timeline"
           element={
             <ProtectedRoute>
-              <ProjectTimeline />
+              <ProjectTimeLine />
             </ProtectedRoute>
           }
         />
@@ -72,15 +73,6 @@ function App() {
           element={
             <ProtectedRoute>
               <Reports />
-            </ProtectedRoute>
-          }
-        />
-
-        <Route
-          path="/contact"
-          element={
-            <ProtectedRoute>
-              <Contact />
             </ProtectedRoute>
           }
         />

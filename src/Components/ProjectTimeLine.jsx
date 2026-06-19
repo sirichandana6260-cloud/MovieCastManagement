@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import TimelineForm from "./TimeLineForm";
-import TimelineTable from "./TimelineTable";
+import TimeLineForm from "./TimeLineForm";
+import TimeLineTable from "./TimeLineTable";
 import "./ProjectTimeLine.css";
 
 function ProjectTimeLine() {
@@ -58,7 +58,7 @@ function ProjectTimeLine() {
     <div className="timeline-container">
       <h1>⏳ Project Timeline</h1>
 
-      <TimelineForm
+      <TimeLineForm
         stage={stage}
         startDate={startDate}
         endDate={endDate}
@@ -70,7 +70,7 @@ function ProjectTimeLine() {
         handleAddTimeline={handleAddTimeline}
       />
 
-      <TimelineTable
+      <TimeLineTable
         timelineList={timelineList}
         handleDeleteTimeline={handleDeleteTimeline}
       />

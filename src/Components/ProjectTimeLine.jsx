@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import TimeLineForm from "./TimeLineForm";
-import TimeLineTable from "./TimeLineTable";
+import TimelineTable from "./TimeLineTable";
 import "./ProjectTimeLine.css";
 
 function ProjectTimeLine() {

@@ -70,7 +70,7 @@ function ProjectTimeLine() {
         handleAddTimeline={handleAddTimeline}
       />
 
-      <TimeLineTable
+      <TimelineTable
         timelineList={timelineList}
         handleDeleteTimeline={handleDeleteTimeline}
       />
